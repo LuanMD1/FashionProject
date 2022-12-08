@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion Project</title>
+
+    <link rel="stylesheet" href="estilizar.css/fashion.css">
+</head>
+
+<!--INÍCIO CSS-->
+
+<style>
+body{
+    font-family: tahoma, arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+#principal{
+    margin: 20px auto;
+    width: 1024px;
+}
+
+.header-top{
+    height:50px;
+    background:rgb(40, 58, 107);
+    position:relative;
+}
+
+.logotipo{
+margin:10px 0 0 140px;
+}
+
+.header-nav{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.header-nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    letter-spacing: 5px;
+}
+
+.header-nav a{
+    text-transform: uppercase;
+    color:rgba(168, 158, 158, 0.274);
+    text-decoration: none;
+}
+
+.header-nav a:hover{
+    color:rgb(255, 252, 252)
+}
+
+.portfolio{
+    padding:50 100 50 100;
+    text-align: center;
+}
+
+.portfolio h1{
+    font-size: 40px;
+    color:#252525;
+}
+
+.portfolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery{
+color: #555;
+padding: 0 100 50 100;
+}
+
+.gallery-card{
+    width:33%;
+    text-align:center;
+    float: left;
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 3x;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about{
+    padding:80px;
+    margin-top:350px;
+    background-color:#003d52;
+    color:white;
+    background-image: url(/projeto-fashion/imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight:normal;
+}
+
+.about p{
+    line-height:1.5;
+    width:70%;
+}
+
+#contact{
+    margin: 50px 0;
+    color:#226c9e;
+    text-transform: uppercase;
+    font-size:20px;
+    font-style:normal;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#maps{
+    margin-top:40px;
+}
+
+footer{
+    background-color:black;
+    color:dodgerblue;
+    font-size:15px;
+    padding:20px;
+    width:95%;
+    text-align: center;
+}
+</style>
+
+<!--FIM CSS-->
+
+<body>
+    <div id="principal">
+        <header class="header-top">
+            <img class="logotipo" src="imagens/logo.png" alt="logotipo fashion">
+            
+        <nav class="header-nav">
+        <ul>
+            <li><a href="">Portfolio</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<img class="mulher" src="imagens/topo.jpg" alt="imagem mulher sentada fashion">
+
+<article class="portfolio">
+<h1>New Fashion Everything Never Enough</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris volutpat nisi non ante dictum congue. Cras id odio gravida, posuere velit sed, lacinia mi.
+Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vehicula, ipsum vel congue cursus, mi neque tincidunt enim, egestas porttitor felis neque et risus.
+ Maecenas fringilla hendrerit enim malesuada laoreet. Aenean quis tortor a odio tempus tincidunt. Vivamus rutrum nulla sed metus congue bibendum. 
+ Sed ut aliquam purus. Donec odio mauris, commodo sed dignissim vitae, dapibus eget mauris.</p>
+</article>  
+
+        <section class="gallery">
+            <article class="gallery-card">
+                <img src="imagens/modelo1.jpg" alt="xxx">
+                <p class="gallery-title">Vest Vomasa</p>
+                <p class="gallery-text">Strong &amp; charismatic</p>
+                </article>
+
+            <article class="gallery-card">
+                <img src="imagens/modelo2.jpg" alt="xxx">
+                <p class="gallery-title">Jacket Fima</p>
+                <p class="gallery-text">Strong Personality</p>
+            </article>
+
+            <article class="gallery-card">
+                <img src="imagens/modelo3.jpg" alt="xxx">
+                <p class="gallery-title">Jacket Black Kira </p>
+                <p class="gallery-text">Power &amp; Fascinating</p>
+            </article>
+        </section>
+
+    <article class="about">
+    <h2>Everything Never Enough <br>Just Fashion</h2>
+    <p>Praesent placerat eros eget lacus ullamcorper, id dapibus ante vestibulum. Curabitur quis condimentum diam. Duis aliquet erat vel laoreet tincidunt. Pellentesque vitae varius ligula. Phasellus in nibh tempus, gravida justo et, suscipit felis. Cras ornare arcu ac sodales tincidunt. Mauris vehicula erat vel ligula porttitor imperdiet. Curabitur nec magna urna. Sed porta ex ex, at pulvinar nibh aliquet quis. Integer dapibus congue vestibulum. Phasellus bibendum lobortis quam, nec sollicitudin nisl volutpat at.</p>
+    </article>
+
+    <div id="contact">
+        <address class="address">
+        Call me now for design<br>
+        (015)99130-9131
+        </address>
+        
+        <div id="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNova%20Iorque%2C%20NY%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1670275853375!5m2!1spt-BR!2sbr" width="1025" height="450" style="border:0;" allowfullscreen="yes" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+            <footer>
+            Copyright &copy; fastfashion.com
+            </footer>
+
+            "Open in GitHub: Project=""
+
+        </div>
+    </body>
+</html>
